@@ -24,8 +24,7 @@ public class Main {
                 .withBucketAuto(true)
         );
 
-        p.run().waitUntilFinish();
+        p.run();
 
-        logger.info("Finalizando pipeline");
     }
 }
